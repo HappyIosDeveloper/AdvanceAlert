@@ -6,7 +6,7 @@ Usage:
 Copy the extension file to your project, then simply use it anywhere in your class like this:
 
 
-        advancedAlert("Message") { (index) in // with default title
+        advanceAlert("Message") { (index) in // with default title
             if index == 1 {
                 // user tapped Yes!
             } else {
@@ -15,7 +15,7 @@ Copy the extension file to your project, then simply use it anywhere in your cla
         }
    
         
-        advancedAlert(title: "Your Title", "Message!") { (index) in // with custom title
+        advanceAlert(title: "Your Title", "Message!") { (index) in // with custom title
             if index == 1 {
                 // user tapped Yes!
             } else {
